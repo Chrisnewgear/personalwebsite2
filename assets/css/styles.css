@@ -141,7 +141,7 @@ img{
 }
 
 .header{
-    width: 100px;
+    width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -159,7 +159,7 @@ img{
 }
 
 .nav__logo,
-.nav__toggle{
+.nav__toggle {
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
@@ -190,7 +190,7 @@ img{
         transition: .3s;
     }
 }
-
+    
 .nav__list{
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -223,14 +223,11 @@ img{
 }
 
 .nav__close:hover{
-    color: var(--first-color);
+    color: var(--first-color-alt);
 }
 
+/*show menu */
 
-/* show menu */
-.show-menu{
-    bottom: 0;
-}
 
 /* Active link */
 
