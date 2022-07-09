@@ -301,7 +301,7 @@ img{
 }
 
 .home__blob-img{
-    width: 170px;
+    width: 130px;
 }
 
 .home__data{
@@ -509,47 +509,47 @@ img{
 }
 
 .skills__html{
-    width: 90%;
+    width: 80%;
 }
 
 .skills__css{
-    width: 80%;
-}
-
-.skills__js{
-    width: 60%;
-}
-
-.skills__react{
-    width: 85%;
-}
-
-.skills__php{
-    width: 80%;
-}
-
-.skills__node{
     width: 70%;
 }
 
-.skills__firebase{
-    width: 90%;
+.skills__js{
+    width: 40%;
 }
 
+.skills__react{
+    width: 35%;
+}
+
+.skills__php{
+    width: 30%;
+}
+
+.skills__sql{
+    width: 40%;
+}
+
+/* .skills__firebase{
+    width: 90%;
+} */
+
 .skills__python{
+    width: 30%;
+}
+
+.skills__illustrator{
     width: 50%;
 }
 
-.skills__figma{
-    width: 85%;
-}
-
-.skills__sketch{
-    width: 85%;
+.skills__xd{
+    width: 40%;
 }
 
 .skills__photoshop{
-    width: 80%;
+    width: 70%;
 }
 
 .skills__close .skills__list{
@@ -822,8 +822,10 @@ img{
 }
 
 .project__img{
-    width: 232px;
+    width: 250px;
+    height: 200px;
     justify-self: center;
+    border-radius: 10px;
 }
 
 /*==================== TESTIMONIAL ====================*/
