@@ -186,3 +186,16 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== SWEET ALERT ====================*/ 
+const sendMessageButton = document.querySelector('#sendMessageButton');
+
+sendMessageButton.addEventListener("click", sweetAlert);
+
+function sweetAlert(){
+    swal({
+        title: "Oops!, This is not ready yet",
+        text: "I'm still working on it, click on my mail address if you want to send an email",
+        icon: "warning",
+    });
+}
