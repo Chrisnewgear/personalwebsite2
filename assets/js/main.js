@@ -189,11 +189,11 @@ themeButton.addEventListener('click', () => {
 
 /*==================== SWEET ALERT ====================*/ 
 const sendMessageButton = document.querySelector('#sendMessageButton');
-/* const demoButton2 = document.querySelector('#demoButton2'); */
+const demoButton2 = document.querySelector('#demoButton2');
 const demoButton3 = document.querySelector('#demoButton3');
 
 sendMessageButton.addEventListener("click", sweetAlert);
-/* demoButton2.addEventListener("click", demoButtonAlert); */
+demoButton2.addEventListener("click", demoButtonAlert);
 demoButton3.addEventListener("click", demoButtonAlert);
 
 
