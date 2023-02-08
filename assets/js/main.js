@@ -189,13 +189,27 @@ themeButton.addEventListener('click', () => {
 
 /*==================== SWEET ALERT ====================*/ 
 const sendMessageButton = document.querySelector('#sendMessageButton');
+/* const demoButton2 = document.querySelector('#demoButton2'); */
+const demoButton3 = document.querySelector('#demoButton3');
 
 sendMessageButton.addEventListener("click", sweetAlert);
+/* demoButton2.addEventListener("click", demoButtonAlert); */
+demoButton3.addEventListener("click", demoButtonAlert);
+
+
 
 function sweetAlert(){
     swal({
         title: "Oops!, This is not ready yet",
         text: "I'm still working on it, click on my mail address if you want to send an email",
         icon: "warning",
+    });
+}
+
+function demoButtonAlert(){
+    swal({
+        title: "Oops!, This is not ready yet",
+        text: "I'm still working on it, please come back in a couple of days",
+        icon: "info",
     });
 }
