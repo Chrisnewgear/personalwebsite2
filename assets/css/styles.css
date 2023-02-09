@@ -525,6 +525,10 @@ img{
     width: 30%;
 }
 
+.skills__git{
+    width: 60%;
+}
+
 .skills__php{
     width: 30%;
 }
