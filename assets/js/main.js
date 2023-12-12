@@ -41,7 +41,7 @@ function toggleSkills(){
     if (itemClass === 'skills__content skills__close'){
         this.parentNode.className = 'skills__content skills__open'
     }
-}      
+}
 
 skillsHeader.forEach((el) =>{
     el.addEventListener('click', toggleSkills)
@@ -93,7 +93,7 @@ modalCloses.forEach((modalClose) => {
 let swiperPortfolio = new Swiper(".portfolio__container", {
     cssMode: true,
     loop: true,
-    
+
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
