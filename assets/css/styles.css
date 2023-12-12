@@ -524,7 +524,11 @@ img{
     width: 30%;
 }
 
-.skills__php{
+.skills__blazor{
+    width: 50%;
+}
+
+.skills__csharp{
     width: 30%;
 }
 
@@ -536,9 +540,9 @@ img{
     width: 90%;
 } */
 
-.skills__python{
+/* .skills__python{
     width: 30%;
-}
+} */
 
 .skills__illustrator{
     width: 60%;
